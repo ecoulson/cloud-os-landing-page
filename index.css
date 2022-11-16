@@ -48,6 +48,7 @@ header {
     padding: 24px 0;
     text-align: center;
     width: 100%;
+    font-style: italic;
 }
 
 #call-to-action-graphic {
@@ -89,10 +90,11 @@ header {
     padding: 10px 24px;
     font-size: 32px;
     text-decoration: none;
+    transition: background 0.25s ease;
 }
 
 .button:hover {
-    text-decoration: underline;
+    background-color: #129ba5;
 }
 
 .button:visited {
@@ -146,7 +148,6 @@ footer {
 
 .solution-list-item-title {
     font-weight: 400;
-    text-decoration: underline;
 }
 
 .solution-list-item-image {
@@ -195,7 +196,7 @@ footer {
 }
 
 .text-underscore {
-    text-decoration: underline;
+    font-style: italic;
 }
 
 .graphics-credits {

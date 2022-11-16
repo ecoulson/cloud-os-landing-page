@@ -2,18 +2,10 @@
 <html lang="en">
     <head>
         <script
-            async
+            defer
             src="https://www.googletagmanager.com/gtag/js?id=G-C026QCGX24"
         ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-
-            gtag('config', 'G-C026QCGX24');
-        </script>
+        <scrip src="./analytics.js" />
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,9 +17,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
             rel="stylesheet"
+            media="print"
+            onload="this.onload=null;this.removeAttribute('media');"
+            href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
         />
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+            />
+        </noscript>
         <link rel="stylesheet" href="normalize.css" />
         <link rel="stylesheet" href="index.css" />
         <title>CloudOS</title>
@@ -40,7 +40,7 @@
                 </div>
                 <div id="call-to-action-container">
                     <img
-                        src="./assets/call-to-action-graphic.png"
+                        src="./assets/call-to-action-graphic.webp"
                         id="call-to-action-graphic"
                     />
                     <div id="call-to-action-content">

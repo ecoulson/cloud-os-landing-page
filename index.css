@@ -4,7 +4,7 @@
 
 header {
     padding: 50px 0;
-    background-color: #345995;
+    background-color: #151d2d;
 }
 
 .container {
@@ -23,7 +23,6 @@ header {
     height: auto;
     box-sizing: border-box;
     padding: 10px;
-    filter: drop-shadow(3px 3px 10px rgb(0, 0, 0));
 }
 
 @media screen and (min-width: 920px) {
@@ -129,7 +128,7 @@ header {
 }
 
 footer {
-    background-color: #345995;
+    background-color: #151d2d;
     color: white;
 }
 
@@ -146,7 +145,7 @@ footer {
 }
 
 #benefits {
-    background-color: #345995;
+    background-color: #151d2d;
     color: white;
     padding: 50px 24px;
 }
@@ -167,7 +166,6 @@ footer {
 .solution-list-item-title {
     font-weight: 400;
     text-decoration: underline;
-    color: #16bac5;
 }
 
 .solution-list-item-image {
@@ -192,6 +190,10 @@ footer {
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+}
+
+.benefits-list-item-title {
+    font-weight: 400;
 }
 
 .benefits-list-item-image {

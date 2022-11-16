@@ -1,0 +1,261 @@
+* {
+    font-family: 'Sen', sans-serif;
+}
+
+header {
+    padding: 50px 0;
+    background-color: #345995;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 10px rgb(0, 0, 0));
+}
+
+@media screen and (min-width: 920px) {
+    .logo {
+        width: 250px;
+    }
+}
+
+#call-to-action-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0;
+}
+
+.title {
+    color: #fdfdfd;
+    font-size: 48px;
+    margin: 0;
+    padding: 24px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.subtitle {
+    color: #fdfdfd;
+    font-size: 36px;
+    margin: 0;
+    padding: 24px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#call-to-action-graphic {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#call-to-action-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 920px) {
+    #call-to-action-container {
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+    }
+    #call-to-action-content {
+        width: 45%;
+    }
+    #call-to-action-graphic {
+        width: 55%;
+    }
+}
+
+.text {
+    box-sizing: border-box;
+    padding: 15px 24px;
+    margin: 0;
+    color: #fdfdfd;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 250px;
+    box-sizing: border-box;
+    background-color: #16bac5;
+    color: #fdfdfd;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 24px;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.button:visited {
+    color: #fdfdfd;
+}
+
+#call-to-action-button {
+    font-weight: 700;
+    width: 300px;
+}
+
+#mailing-list {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #345995;
+    color: white;
+}
+
+#footer-text {
+    font-size: 14px;
+}
+
+.link {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+#benefits {
+    background-color: #345995;
+    color: white;
+    padding: 50px 24px;
+}
+
+#solutions {
+    padding: 50px 24px;
+}
+
+.solution-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.solution-list-item {
+    width: 100%;
+}
+
+.solution-list-item-title {
+    font-weight: 400;
+    text-decoration: underline;
+    color: #16bac5;
+}
+
+.solution-list-item-image {
+    padding: 24px 0;
+    display: block;
+    filter: invert(33%) sepia(14%) saturate(2167%) hue-rotate(178deg)
+        brightness(95%) contrast(93%);
+    width: 70%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 920px) {
+    .solution-list {
+        flex-direction: row;
+    }
+}
+
+.benefits-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.benefits-list-item-image {
+    display: block;
+    filter: invert(100%);
+    padding-top: 50px;
+    width: 50%;
+    max-width: 250px;
+    margin: 0 auto;
+    filter: invert(51%) sepia(100%) saturate(353%) hue-rotate(135deg)
+        brightness(96%) contrast(101%);
+}
+
+.benefits-list-item-content {
+    width: 100%;
+}
+
+#benefits-list-item-alt {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 920px) {
+    .benefits-list-item {
+        gap: 50px;
+        flex-wrap: nowrap;
+    }
+    #benefits-list-item-alt {
+        display: flex;
+        flex-direction: initial;
+    }
+    .benefits-list-item-content {
+        width: 66%;
+    }
+    .benefits-list-item-image {
+        width: 33%;
+        padding-top: 0;
+    }
+}
+
+.text-white {
+    color: white;
+}
+
+.text-underscore {
+    text-decoration: underline;
+}
+
+.graphics-credits {
+    padding: 50px 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.graphic-credit {
+    box-sizing: border-box;
+    margin: 0;
+    color: #fdfdfd;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.text-left {
+    text-align: left;
+}

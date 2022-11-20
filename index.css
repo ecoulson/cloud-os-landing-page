@@ -263,3 +263,18 @@ footer {
         font-size: 48px;
     }
 }
+
+#demo {
+    margin-top: -50px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+}
